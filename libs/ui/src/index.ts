@@ -1,2 +1,2 @@
-export * from './lib/navbar/navbar';
+export * from './lib/navitem/navitem';
 export * from './lib/ui';
