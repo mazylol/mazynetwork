@@ -1551,7 +1551,7 @@
     semver "7.3.4"
     tslib "^2.3.0"
 
-"@nrwl/devkit@14.5.8":
+"@nrwl/devkit@14.5.8", "@nrwl/devkit@^14.5.8":
   version "14.5.8"
   resolved "https://registry.yarnpkg.com/@nrwl/devkit/-/devkit-14.5.8.tgz#f0b0b29e06607b7bce31fd82cd5fe791824196ad"
   integrity sha512-e0gSQqDXYb5vj0uc2Xnkd6LvShgZRH8TTUBr1hERgmLR2dUUG1X/8p9hTOB0hxF0RnhDndqquI+vADnfYWBRlg==
@@ -1674,7 +1674,7 @@
     tmp "~0.2.1"
     tslib "^2.3.0"
 
-"@nrwl/next@^14.5.6":
+"@nrwl/next@^14.5.8":
   version "14.5.8"
   resolved "https://registry.yarnpkg.com/@nrwl/next/-/next-14.5.8.tgz#5061b29fc961195423d128c8fdbc98fc59b7c19d"
   integrity sha512-weMatqGVeXaIq07W9fhmsI6U/FJC4IKzeTVY+QT+2jOslFsp5ciWAdDic1SIGACizeVYCTC+AeUL8MROAX6eBw==
@@ -7229,7 +7229,7 @@ nx@14.5.6:
     yargs "^17.4.0"
     yargs-parser "21.0.1"
 
-nx@14.5.8:
+nx@14.5.8, nx@^14.5.8:
   version "14.5.8"
   resolved "https://registry.yarnpkg.com/nx/-/nx-14.5.8.tgz#0387f684ff0c14c42f2212a662d432d8cd4f9377"
   integrity sha512-yTWL4pyzevWORx0GzXElTeoH19pvvOt0v98kXWjNU4TTB1vWlMiHEFAkfqScFrUX0L/efulYoEVjTgPdNtmInA==
