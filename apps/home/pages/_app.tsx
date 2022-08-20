@@ -1,4 +1,4 @@
-import { Navitem } from '@mazynetwork/ui';
+import { Navitem, Footer } from '@mazynetwork/ui';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import './styles.css';
@@ -15,6 +15,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
           <Navitem name="Projects" path="/projects" />
         </div>
         <Component {...pageProps} />
+        <Footer />
       </main>
     </>
   );
