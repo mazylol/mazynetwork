@@ -8,10 +8,11 @@ function CustomApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Welcome to portfolio-concept!</title>
       </Head>
-      <div className="bg-zinc-200 min-h-screen"><main>
-        <Component {...pageProps} />
-      </main></div>
-
+      <div className="bg-zinc-200 min-h-screen">
+        <main>
+          <Component {...pageProps} />
+        </main>
+      </div>
     </>
   );
 }
