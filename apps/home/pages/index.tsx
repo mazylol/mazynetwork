@@ -10,7 +10,7 @@ export default function Index() {
         <p className="text-3xl italic mt-2">A very dumb developer</p>
       </div>
       <div
-        className="h-96 w-96 relative mx-auto mt-5 active:scale-110 transition-all"
+        className="h-96 w-96 relative mx-auto mt-5"
         data-aos="zoom-in"
         data-aos-delay="250"
       >
