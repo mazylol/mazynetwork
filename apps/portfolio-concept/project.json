@@ -1,0 +1,54 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/portfolio-concept",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/next:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "root": "apps/portfolio-concept",
+        "outputPath": "dist/apps/portfolio-concept"
+      },
+      "configurations": {
+        "development": {
+          "outputPath": "apps/portfolio-concept"
+        },
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/next:server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "portfolio-concept:build",
+        "dev": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "portfolio-concept:build:development",
+          "dev": true
+        },
+        "production": {
+          "buildTarget": "portfolio-concept:build:production",
+          "dev": false
+        }
+      }
+    },
+    "export": {
+      "executor": "@nrwl/next:export",
+      "options": {
+        "buildTarget": "portfolio-concept:build:production"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/portfolio-concept/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  },
+  "tags": []
+}
