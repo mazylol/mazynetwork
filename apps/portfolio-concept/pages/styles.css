@@ -1,3 +1,21 @@
 @tailwind components;
 @tailwind base;
 @tailwind utilities;
+
+@layer components {
+  .box {
+    @apply hover:bg-zinc-200 rounded-xl h-[47vh] transition-all duration-200;
+  }
+
+  .box-title {
+    @apply text-center text-5xl font-bold text-zinc-200 pt-[16.5vh];
+  }
+
+  .innerbox {
+    @apply w-full h-12 bg-zinc-200 group-hover:bg-yellow-500 rounded-t-xl transition-all duration-200;
+  }
+
+  .inner-title {
+    @apply hidden text-center text-4xl font-bold text-neutral-700 pt-[1vh] transition-all duration-200;
+  }
+}

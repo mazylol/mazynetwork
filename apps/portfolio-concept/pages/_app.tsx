@@ -8,7 +8,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Welcome to portfolio-concept!</title>
       </Head>
-      <div className="bg-zinc-100 min-h-screen">
+      <div className="bg-zinc-500 min-h-screen">
         <main>
           <Component {...pageProps} />
         </main>
