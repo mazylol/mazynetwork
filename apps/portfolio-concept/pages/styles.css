@@ -16,6 +16,6 @@
   }
 
   .inner-title {
-    @apply hidden text-center text-4xl font-bold text-neutral-700 pt-[1vh] transition-all duration-200;
+    @apply hidden text-center text-4xl font-bold text-neutral-700 pt-[1vh] transition-all duration-200 border-b-4 border-neutral-400 mx-8 border-dashed;
   }
 }
