@@ -18,4 +18,8 @@
   .inner-title {
     @apply hidden text-center text-4xl font-bold text-neutral-700 pt-[1vh] transition-all duration-200 border-b-4 border-neutral-400 mx-8 border-dashed;
   }
+
+  .inner-text {
+    @apply hidden text-center mx-2 text-2xl font-medium text-neutral-600 pt-[1vh] transition-all duration-200;
+  }
 }
