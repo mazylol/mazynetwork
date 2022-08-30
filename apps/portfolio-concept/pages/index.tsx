@@ -12,9 +12,11 @@ export function Index() {
           <div className="group-hover:bg-blue-500 innerbox"></div>
           <p className="box-title group-hover:hidden">Skills</p>
           <p className="inner-title group-hover:block">Some Stuff That I Can Do {"(badly)"}</p>
-          <ul className="hidden group-hover:block mx-auto text-center pt-[1vh] text-neutral-600 font-medium text-xl">
-            <li>* Web Dev (TS, HTML, CSS)</li>
-            <li>* Coding with Rust, C, Python, and Kotlin</li>
+          <ul className="hidden group-hover:block mx-auto text-center pt-[1vh] text-neutral-600 font-medium text-2xl">
+            <li className="py-1">Web Dev (TS, HTML, CSS)</li>
+            <li className="py-1">Programming with Lua, Python, C, Rust, Kotlin, and Bash</li>
+            <li className="py-1">Networking {"(Cloudflare)"}</li>
+            <li className="py-1">Computer Building</li>
           </ul>
         </div>
         <div className="bg-red-500 box group">
