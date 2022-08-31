@@ -6,7 +6,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Welcome to portfolio-concept!</title>
+        <title>Welcome to portfolio!</title>
       </Head>
       <div className="bg-neutral-400 min-h-screen">
         <main>

@@ -3,7 +3,7 @@
   "version": 2,
   "projects": {
     "home": "apps/home",
-    "portfolio-concept": "apps/portfolio-concept",
+    "portfolio": "apps/portfolio",
     "ui": "libs/ui"
   }
 }

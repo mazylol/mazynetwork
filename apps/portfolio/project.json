@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/portfolio-concept",
+  "sourceRoot": "apps/portfolio",
   "projectType": "application",
   "targets": {
     "build": {
@@ -8,12 +8,12 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "root": "apps/portfolio-concept",
-        "outputPath": "dist/apps/portfolio-concept"
+        "root": "apps/portfolio",
+        "outputPath": "dist/apps/portfolio"
       },
       "configurations": {
         "development": {
-          "outputPath": "apps/portfolio-concept"
+          "outputPath": "apps/portfolio"
         },
         "production": {}
       }
@@ -22,16 +22,16 @@
       "executor": "@nrwl/next:server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "portfolio-concept:build",
+        "buildTarget": "portfolio:build",
         "dev": true
       },
       "configurations": {
         "development": {
-          "buildTarget": "portfolio-concept:build:development",
+          "buildTarget": "portfolio:build:development",
           "dev": true
         },
         "production": {
-          "buildTarget": "portfolio-concept:build:production",
+          "buildTarget": "portfolio:build:production",
           "dev": false
         }
       }
@@ -39,14 +39,14 @@
     "export": {
       "executor": "@nrwl/next:export",
       "options": {
-        "buildTarget": "portfolio-concept:build:production"
+        "buildTarget": "portfolio:build:production"
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["apps/portfolio-concept/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["apps/portfolio/**/*.{ts,tsx,js,jsx}"]
       }
     }
   },
