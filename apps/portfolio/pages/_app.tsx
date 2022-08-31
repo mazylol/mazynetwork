@@ -6,7 +6,8 @@ function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Welcome to portfolio!</title>
+        <title>Mazylol | Portfolio</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="bg-neutral-400 min-h-screen">
         <main>
