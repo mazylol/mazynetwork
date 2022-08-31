@@ -11,7 +11,7 @@
     @apply text-center text-5xl font-bold text-zinc-200 pt-[16.5vh];
   }
 
-  .innerbox {
+  .inner-box {
     @apply w-full h-12 bg-zinc-200 group-hover:bg-yellow-500 rounded-t-xl transition-all duration-200;
   }
 
@@ -20,6 +20,19 @@
   }
 
   .inner-text {
-    @apply hidden text-center mx-2 text-2xl font-medium text-neutral-600 pt-[1vh] transition-all duration-200;
+    @apply hidden text-center mx-4 text-2xl font-medium text-neutral-600 pt-[1vh] transition-all duration-200;
+  }
+
+  .list-style {
+    @apply hidden group-hover:block pt-[1vh] text-neutral-600 font-medium text-2xl transition-all duration-200;
+  }
+
+  .link-hover {
+    @apply bg-gradient-to-tr from-blue-500 to-blue-500
+    bg-no-repeat [background-position:0_88%]
+    [background-size:100%_0.2em]
+    motion-safe:transition-all motion-safe:duration-200
+    hover:[background-size:100%_100%]
+    focus:[background-size:100%_100%] hover:text-gray-100;
   }
 }
