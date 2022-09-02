@@ -20,7 +20,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
       <main className="min-h-screen bg-zinc-800">
         <div className="w-full bg-zinc-700 h-14 flex flex-row top-0">
           <Navitem name="Home" path="/" />
-          <Navitem name="Projects" path="/projects" />
+          <Navitem name="Blog" path="/blog" />
         </div>
         <Component {...pageProps} />
         <Footer />
