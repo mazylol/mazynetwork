@@ -55,7 +55,12 @@ export function Index() {
             </li>
             <li className="py-1">
               <span className="link-hover">
-                <Link href="https://twitter.com/mazylol">Twitter</Link>
+                <Link href="https://twitter.com/mazylol">Twitter </Link>
+              </span>
+            </li>
+            <li className="py-1">
+              <span className="link-hover">
+                <Link href="mailto:mazy@mazylol.com">Email</Link>
               </span>
             </li>
           </ul>
