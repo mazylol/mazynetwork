@@ -16,7 +16,7 @@
   }
 
   .inner-title {
-    @apply hidden text-center text-4xl font-bold text-neutral-700 pt-[1vh] transition-all duration-200 border-b-4 border-neutral-400 mx-8 border-dashed;
+    @apply hidden text-center text-4xl font-bold text-neutral-700 transition-all duration-200 border-b-4 border-neutral-400 mx-8 py-[1vh] border-dashed;
   }
 
   .inner-text {
@@ -24,12 +24,12 @@
   }
 
   .list-style {
-    @apply hidden group-hover:block pt-[1vh] text-neutral-600 font-medium text-2xl transition-all duration-200;
+    @apply hidden group-hover:block pt-[1vh] text-neutral-600 font-medium text-2xl transition-all duration-200 ml-8;
   }
 
   .link-hover {
     @apply bg-gradient-to-tr from-blue-500 to-blue-500
-    bg-no-repeat [background-position:0_88%]
+    bg-no-repeat [background-position:0_100%]
     [background-size:100%_0.2em]
     motion-safe:transition-all motion-safe:duration-200
     hover:[background-size:100%_100%]
